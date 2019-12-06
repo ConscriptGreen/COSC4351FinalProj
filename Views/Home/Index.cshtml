@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+    <div class="m-5">
+        @if (ViewBag.AccessLevel == "")
+        {
+
+        }
+        else if (ViewBag.AccessLevel == "AManager")
+        {
+            <h4>Currently logged into an ADMIN account</h4>
+        }
+        else if (ViewBag.AccessLevel == "HRManager")
+        {
+            <h4>Currently logged into a HR ADMIN account</h4>
+        }
+        else if (ViewBag.AccessLevel == "FManager")
+        {
+            <h4>Currently logged into a Finance ADMIN account</h4>
+        }
+        else if (ViewBag.AccessLevel == "EManager")
+        {
+            <h4>Currently logged into a HR ADMIN account</h4>
+        }
+        else if (ViewBag.AccessLevel == "SManager")
+        {
+            <h4>Currently logged into a HR ADMIN account</h4>
+        }
+        else if (ViewBag.AccessLevel == "SuperAdmin")
+        {
+            <h4>Currently logged into a Super ADMIN account</h4>
+        }
+    </div>
+
+
+
+

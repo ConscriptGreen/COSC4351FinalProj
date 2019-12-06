@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "SuperAdmin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>Super Admin Home</h2>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/Global.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Global Hub</h3>
+                        <p class="card-text">Provides all the Global links.</p>
+                        @Html.ActionLink("GlobalHub", "Index", "GlobalHub", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/Engg.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Engineering Manager Hub</h3>
+                        <p class="card-text">Provides all the Engineering Manager links.</p>
+                        @Html.ActionLink("EManagerHub", "Index", "EManagerHub", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/F.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Finance Manager Hub</h3>
+                        <p class="card-text">Provides all the Finance Manager links.</p>
+                        @Html.ActionLink("FManagerHub", "Index", "FManagerHub", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/HR.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">HR Manager Hub</h3>
+                        <p class="card-text">Provides all the HR Manager links.</p>
+                        @Html.ActionLink("HRManagerHub", "Index", "HRManagerHub", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/Sales.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Sales Manager Hub</h3>
+                        <p class="card-text">Provides all the Sales Manager links.</p>
+                        @Html.ActionLink("SManagerHub", "Index", "SManagerHub", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/Accounts.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Employee Profiles</h3>
+                        <p class="card-text">Link to allow editing of all ADMIN Employees.</p>
+                        @Html.ActionLink("Employee Accounts", "Index", "EmployeeProfile", null, new { @class = "btn btn-lg btn-outline-success" })
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

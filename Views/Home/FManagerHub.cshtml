@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "FManagerHub";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>Finance ADMIN Hub</h2>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/FReport.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Finance Reports</h3>
+                        <p class="card-text">Create a new financial report or check past reports.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/FPayable.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Accounts Payable</h3>
+                        <p class="card-text">Check which account can be paid or make a payment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/FAccountRecieve.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Accounts Recievables</h3>
+                        <p class="card-text">Check to see which accounts can or cannot be recieved by the company.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card h-100">
+                    <img src=@Url.Content("~/Media/FTax.jpg") alt="" class="card-img-top h-25">
+                    <div class="card-body">
+                        <h3 class="card-title">Tax</h3>
+                        <p class="card-text">Manage taxes or view past tax documentation.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
