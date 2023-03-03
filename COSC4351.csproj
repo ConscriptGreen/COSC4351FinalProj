@@ -13,7 +13,7 @@
     <PackageReference Include="bootstrap" Version="4.4.1" />
     <PackageReference Include="EntityFramework" Version="6.4.0" />
     <PackageReference Include="jQuery" Version="3.4.1" />
-    <PackageReference Include="jQuery.Validation" Version="1.19.1" />
+    <PackageReference Include="jQuery.Validation" Version="1.19.3" />
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.7" />
     <PackageReference Include="Microsoft.AspNet.TelemetryCorrelation" Version="1.0.7" />
